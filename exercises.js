@@ -19,9 +19,9 @@ function madlib(name, subject) {
 madlib("Joey", "school")
 
 /////// Tip Calculator /////////
-let good = .20;
-let fair = .15;
-let bad = .1;
+const good = .20;
+const fair = .15;
+const bad = .1;
 
 function tipAmount(billAmount, service) {
      tip = billAmount * service;
@@ -30,9 +30,9 @@ function tipAmount(billAmount, service) {
 tipAmount(15, good)
 
 /////// Tip Calculator 2 /////////
-let good = .20;
-let fair = .15;
-let bad = .1;
+const good = .20;
+const fair = .15;
+const bad = .1;
 
 function totalAmount(billAmount, service) {
      tip = billAmount * service;
@@ -42,9 +42,9 @@ function totalAmount(billAmount, service) {
 totalAmount(15, bad)
 
 /////// Tip Calculator 3 /////////
-let good = .20;
-let fair = .15;
-let bad = .1;
+const good = .20;
+const fair = .15;
+const bad = .1;
 
 function splitAmount(billAmount, service, numOfPeople) {
      tip = billAmount * service;
